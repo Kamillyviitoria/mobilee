@@ -7,7 +7,7 @@ export default function EscudoScreen() {
     <View style={styles.container}>
       <Text variant='headlineLarge' style={{ textAlign: 'center' }}>Escudo do Time</Text>
       <Card style={{ width: '90%', marginTop: 20 }}>
-        <Card.Cover source={{ uri: 'https://picsum.photos/700' }} />
+        <Card.Cover source={{ uri: 'https://upload.wikimedia.org/wikipedia/pt/a/ac/CRVascodaGama.png' }} />
       </Card>
     </View>
   )
@@ -18,6 +18,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     flex: 1,
     alignItems: 'center',
-    paddingTop: 10
+    paddingTop: 500
   }
 });

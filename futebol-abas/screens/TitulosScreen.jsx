@@ -3,10 +3,23 @@ import { Text, List } from 'react-native-paper';
 import React from 'react';
 
 const titulos = [
-  { id: '1', nome: 'Campeonato 2001' },
-  { id: '2', nome: 'Copa 2005' },
-  { id: '3', nome: 'Supercopa 2010' },
-];
+    {
+    nome: "Campeonato Brasileiro",
+    anos: [1980, 1982, 1983, 1992, 2009, 2019, 2020]
+    },
+    {
+    nome: "Copa Libertadores da América",
+    anos: [1981, 2019, 2022]
+    },
+    {
+    nome: "Copa do Brasil",
+    anos: [1990, 2006, 2013, 2022, 2024]
+    },
+    {
+    nome: "Supercopa do Brasil",
+    anos: [2020, 2021, 2025]
+    },
+    ];
 
 export default function TitulosScreen() {
   return (
